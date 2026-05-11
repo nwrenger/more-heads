@@ -30,7 +30,7 @@ Mobs drop their heads when killed with a hoe. This keeps head collecting intenti
 
 ### Player Heads
 
-Players drop their heads when killed by another player. Also the head shows who killed them:
+Players drop their heads when killed by another player. The one who killed them will be shown on the tooltip of the head.
 
 ![player-head-tooltip](showcase/player-head-tooltip.png)
 
