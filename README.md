@@ -4,7 +4,7 @@
 [![modrinth](https://img.shields.io/badge/dynamic/json?url=https://api.modrinth.com/v2/project/more-heads&label=downloads&query=$.downloads&color=#00AF5C)](https://modrinth.com/datapack/more-heads)
 [![modrinth](https://img.shields.io/modrinth/game-versions/more-heads.svg)](https://modrinth.com/datapack/more-heads)
 
-Adds **easier** access to **more heads**, including **mob heads** and **player heads**, without breaking vanilla progression.
+Adds **easier** access to **more heads**, including **mob heads** and **player heads**, **without** polluting farms or **breaking** vanilla progression.
 
 > Expands head collecting while keeping drops survival-friendly and tied to vanilla-style progression.
 
