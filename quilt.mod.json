@@ -6,7 +6,7 @@
     "version": "__VERSION__",
     "metadata": {
       "name": "More Heads",
-      "description": "Adds easier access to more heads, including mob and player heads, without breaking vanilla progression.",
+      "description": "Adds easier access to more heads, including mob and player heads, without polluting farms or breaking vanilla progression.",
       "contributors": { "nwrenger": "Member" },
       "contact": {
         "homepage": "https://modrinth.com/datapack/more-heads",
