@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "more_mob_heads:entities/glow_squid"
+          "value": "more_heads:entities/glow_squid"
         }
       ]
     }

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "io.github.nwrenger.moreheads",
+    "id": "more_heads",
+    "version": "__VERSION__",
+    "metadata": {
+      "name": "More Heads",
+      "description": "Adds easier access to more heads, including mob and player heads, without breaking vanilla progression.",
+      "contributors": { "nwrenger": "Member" },
+      "contact": {
+        "homepage": "https://modrinth.com/datapack/more-heads",
+        "sources": "https://github.com/nwrenger/more-heads",
+        "issues": "https://github.com/nwrenger/more-heads/issues"
+      },
+      "icon": "pack.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "depends": [
+      {
+        "id": "quilt_resource_loader",
+        "versions": "*",
+        "unless": "fabric-resource-loader-v0"
+      }
+    ]
+  }
+}

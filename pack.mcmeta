@@ -1,7 +1,43 @@
 {
     "pack": {
-        "description": "More Mob Heads Server",
-        "pack_format": 88,
-        "min_format": 88
+        "pack_format": 48,
+        "min_format": 48,
+        "max_format": [101, 1],
+        "supported_formats": { "min_inclusive": 48, "max_inclusive": 101 },
+        "description": "Adds easier access to more heads, including mob and player heads, without breaking vanilla progression"
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "overlay_post_61",
+                "min_format": 61,
+                "max_format": [101, 1],
+                "formats": { "min_inclusive": 61, "max_inclusive": 101 }
+            },
+            {
+                "directory": "overlay_post_62",
+                "min_format": 62,
+                "max_format": [101, 1],
+                "formats": { "min_inclusive": 62, "max_inclusive": 101 }
+            },
+            {
+                "directory": "overlay_post_80",
+                "min_format": 80,
+                "max_format": [101, 1],
+                "formats": { "min_inclusive": 80, "max_inclusive": 101 }
+            },
+            {
+                "directory": "overlay_post_88",
+                "min_format": 88,
+                "max_format": [101, 1],
+                "formats": { "min_inclusive": 88, "max_inclusive": 101 }
+            },
+            {
+                "directory": "overlay_post_94",
+                "min_format": [94, 1],
+                "max_format": [101, 1],
+                "formats": { "min_inclusive": 94, "max_inclusive": 101 }
+            }
+        ]
     }
 }

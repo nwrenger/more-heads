@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "more_heads",
+  "version": "__VERSION__",
+  "name": "More Heads",
+  "description": "Adds easier access to more heads, including mob and player heads, without breaking vanilla progression.",
+  "authors": ["nwrenger"],
+  "contact": {
+    "homepage": "https://modrinth.com/datapack/more-heads",
+    "sources": "https://github.com/nwrenger/more-heads",
+    "issues": "https://github.com/nwrenger/more-heads/issues"
+  },
+  "license": "GPL-3.0-or-later",
+  "icon": "pack.png",
+  "environment": "*",
+  "depends": { "fabric-resource-loader-v0": "*" }
+}

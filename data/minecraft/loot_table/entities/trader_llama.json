@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "more_mob_heads:entities/trader_llama"
+          "value": "more_heads:entities/trader_llama"
         }
       ]
     }
