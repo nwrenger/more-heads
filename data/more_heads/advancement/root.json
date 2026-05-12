@@ -4,7 +4,7 @@
       "id": "minecraft:player_head"
     },
     "title": "More Heads",
-    "description": "Adds survival-friendly access to more heads, including mob and player heads, without polluting farms or breaking vanilla progression",
+    "description": "Adds survival-friendly access to mob and player heads with intentional hoe-based drops, avoiding farm pollution and preserving vanilla progression",
     "background": "minecraft:textures/block/deepslate_tiles.png",
     "frame": "task",
     "show_toast": false,

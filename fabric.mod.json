@@ -3,7 +3,7 @@
   "id": "more_heads",
   "version": "__VERSION__",
   "name": "More Heads",
-  "description": "Adds survival-friendly access to more heads, including mob and player heads, without polluting farms or breaking vanilla progression.",
+  "description": "Adds survival-friendly access to mob and player heads with intentional hoe-based drops, avoiding farm pollution and preserving vanilla progression.",
   "authors": ["nwrenger"],
   "contact": {
     "homepage": "https://modrinth.com/datapack/more-heads",
