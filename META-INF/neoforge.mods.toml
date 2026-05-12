@@ -1,7 +1,7 @@
 
 modLoader = 'javafml'
 loaderVersion = '[1,)'
-license = 'GPL-3.0-or-later'
+license = 'LGPL-3.0-or-later'
 showAsResourcePack = false
 mods = [
     { modId = 'more_heads', version = '__VERSION__', displayName = 'More Heads', description = 'Adds survival-friendly access to more heads, including mob and player heads, without polluting farms or breaking vanilla progression.', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/IDVPmSM5/forge_updates.json?neoforge=only', authors = 'nwrenger', displayURL = 'https://modrinth.com/datapack/more-heads' },
