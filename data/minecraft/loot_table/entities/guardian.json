@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "bielefeld:entities/guardian"
+          "value": "vanilla:entities/guardian"
         }
       ]
     },

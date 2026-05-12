@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "double_shulker_shells:entities/shulker"
+          "value": "more_heads:entities/shulker"
         }
       ]
     }

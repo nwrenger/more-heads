@@ -23,6 +23,342 @@
                 {
                   "function": "set_components",
                   "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.zombie_villager.infect",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmM0ZjdhNjkzYjZlMTcxOWI0ODYyMDQwZWM1OGRmYzJmNDg0YTczNGE0MjdjMzViNjA1ZDkyNGFjNjVhYWRmIn19fQ=="
+                        }
+                      ]
+                    },
+                    "minecraft:item_name": "Desert Baby Zombie Villager Head",
+                    "minecraft:lore": [
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": true
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "components": {
+                      "minecraft:villager/variant": "desert"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.zombie_villager.infect",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThiMTU1Y2FlYTY3N2I4MmVkYzIwYjYxNGQ0ZjIzMTk4N2UyMGY4YzQwYjVhNmVjZWQ2OGZlNWEyZjA3MTljMiJ9fX0="
+                        }
+                      ]
+                    },
+                    "minecraft:item_name": "Jungle Baby Zombie Villager Head",
+                    "minecraft:lore": [
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": true
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "components": {
+                      "minecraft:villager/variant": "jungle"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.zombie_villager.infect",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTJiMzQxNzk4ZmYxMjcyM2YwZDkxNDI1OTZhZmU1YTg1NzU0YjMwMmQ1YzU1OTFmYjQwMWQwY2ZlNzBmMmQxMSJ9fX0="
+                        }
+                      ]
+                    },
+                    "minecraft:item_name": "Plains Baby Zombie Villager Head",
+                    "minecraft:lore": [
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": true
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "components": {
+                      "minecraft:villager/variant": "plains"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.zombie_villager.infect",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmM5ODFiOTIzNjY2MmJiY2QxNmIwM2E2MGRhZGMzZDI1NGJiNmIyN2MyMjg2NjhiODQwYmMwODdlY2EwZjBhZCJ9fX0="
+                        }
+                      ]
+                    },
+                    "minecraft:item_name": "Savanna Baby Zombie Villager Head",
+                    "minecraft:lore": [
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": true
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "components": {
+                      "minecraft:villager/variant": "savanna"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.zombie_villager.infect",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2VlOWU5YmJhZGRhMzNiZDU1ZTNmYzUyNDI5NDE0YzJhN2UxYmVjZTEyNzhhZWIwMWZhMDkyNjFhMmIwY2EyZSJ9fX0="
+                        }
+                      ]
+                    },
+                    "minecraft:item_name": "Snow Baby Zombie Villager Head",
+                    "minecraft:lore": [
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": true
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "components": {
+                      "minecraft:villager/variant": "snow"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.zombie_villager.infect",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVkMGU5MzkyNjRiMjhjNjEyMTI4NGUyOTIwMDVhYTIyMzFkMzk5ODM0M2Y2MTZjODgzMGYxMWI1MmM1ZTA1ZSJ9fX0="
+                        }
+                      ]
+                    },
+                    "minecraft:item_name": "Swamp Baby Zombie Villager Head",
+                    "minecraft:lore": [
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": true
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "components": {
+                      "minecraft:villager/variant": "swamp"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.zombie_villager.infect",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2M5OGMyNWI0MDU3NzA1ZDg0ZmEyMzBmZDFkZTIyYjU2NjY4ZjczM2MxOTJlNjFlZjhhMTY3NGFiMWJiODNiMiJ9fX0="
+                        }
+                      ]
+                    },
+                    "minecraft:item_name": "Taiga Baby Zombie Villager Head",
+                    "minecraft:lore": [
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": true
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "components": {
+                      "minecraft:villager/variant": "taiga"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
                     "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
                     "minecraft:profile": {
                       "properties": [
@@ -32,9 +368,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Armorer Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Armorer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -45,6 +385,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:desert\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -65,9 +414,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Butcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Butcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -78,6 +431,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:desert\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -98,9 +460,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Cartographer Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Cartographer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -111,6 +477,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:desert\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -131,9 +506,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Cleric Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Cleric Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -144,6 +523,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:desert\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -164,9 +552,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Farmer Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Farmer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -177,6 +569,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:desert\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -197,9 +598,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Fisherman Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Fisherman Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -210,6 +615,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:desert\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -230,9 +644,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Fletcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Fletcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -243,6 +661,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:desert\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -263,9 +690,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Leatherworker Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Leatherworker Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -276,6 +707,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:desert\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -296,9 +736,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Librarian Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Librarian Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -309,6 +753,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:desert\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -329,9 +782,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Mason Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Mason Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -342,6 +799,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:desert\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -362,9 +828,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Nitwit Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Nitwit Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -375,6 +845,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:desert\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -395,9 +874,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -408,6 +891,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:desert\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -428,9 +920,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Shepherd Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Shepherd Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -441,6 +937,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:desert\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -461,9 +966,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Toolsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Toolsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -474,6 +983,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:desert\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -494,9 +1012,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Weaponsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Weaponsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -507,6 +1029,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:desert\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -527,9 +1058,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Armorer Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Armorer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -540,6 +1075,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:jungle\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -560,9 +1104,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Butcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Butcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -573,6 +1121,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:jungle\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -593,9 +1150,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Cartographer Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Cartographer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -606,6 +1167,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:jungle\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -626,9 +1196,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Cleric Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Cleric Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -639,6 +1213,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:jungle\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -659,9 +1242,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Farmer Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Farmer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -672,6 +1259,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:jungle\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -692,9 +1288,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Fisherman Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Fisherman Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -705,6 +1305,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:jungle\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -725,9 +1334,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Fletcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Fletcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -738,6 +1351,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:jungle\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -758,9 +1380,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Leatherworker Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Leatherworker Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -771,6 +1397,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:jungle\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -791,9 +1426,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Librarian Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Librarian Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -804,6 +1443,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:jungle\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -824,9 +1472,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Mason Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Mason Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -837,6 +1489,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:jungle\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -857,9 +1518,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Nitwit Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Nitwit Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -870,6 +1535,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:jungle\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -890,9 +1564,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -903,6 +1581,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:jungle\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -923,9 +1610,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Shepherd Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Shepherd Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -936,6 +1627,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:jungle\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -956,9 +1656,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Toolsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Toolsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -969,6 +1673,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:jungle\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -989,9 +1702,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Weaponsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Weaponsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1002,6 +1719,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:jungle\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1022,9 +1748,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Armorer Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Armorer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1035,6 +1765,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:plains\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1055,9 +1794,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Butcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Butcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1068,6 +1811,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:plains\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1088,9 +1840,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Cartographer Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Cartographer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1101,6 +1857,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:plains\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1121,9 +1886,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Cleric Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Cleric Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1134,6 +1903,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:plains\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1154,9 +1932,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Farmer Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Farmer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1167,6 +1949,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:plains\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1187,9 +1978,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Fisherman Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Fisherman Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1200,6 +1995,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:plains\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1220,9 +2024,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Fletcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Fletcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1233,6 +2041,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:plains\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1253,9 +2070,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Leatherworker Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Leatherworker Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1266,6 +2087,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:plains\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1286,9 +2116,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Librarian Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Librarian Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1299,6 +2133,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:plains\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1319,9 +2162,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Mason Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Mason Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1332,6 +2179,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:plains\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1352,9 +2208,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Nitwit Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Nitwit Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1365,6 +2225,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:plains\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1385,9 +2254,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1398,6 +2271,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:plains\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1418,9 +2300,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Shepherd Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Shepherd Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1431,6 +2317,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:plains\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1451,9 +2346,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Toolsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Toolsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1464,6 +2363,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:plains\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1484,9 +2392,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Weaponsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Weaponsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1497,6 +2409,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:plains\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1517,9 +2438,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Armorer Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Armorer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1530,6 +2455,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:savanna\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1550,9 +2484,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Butcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Butcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1563,6 +2501,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:savanna\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1583,9 +2530,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Cartographer Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Cartographer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1596,6 +2547,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:savanna\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1616,9 +2576,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Cleric Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Cleric Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1629,6 +2593,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:savanna\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1649,9 +2622,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Farmer Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Farmer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1662,6 +2639,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:savanna\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1682,9 +2668,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Fisherman Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Fisherman Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1695,6 +2685,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:savanna\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1715,9 +2714,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Fletcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Fletcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1728,6 +2731,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:savanna\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1748,9 +2760,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Leatherworker Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Leatherworker Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1761,6 +2777,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:savanna\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1781,9 +2806,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Librarian Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Librarian Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1794,6 +2823,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:savanna\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1814,9 +2852,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Mason Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Mason Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1827,6 +2869,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:savanna\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1847,9 +2898,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Nitwit Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Nitwit Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1860,6 +2915,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:savanna\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1880,9 +2944,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1893,6 +2961,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:savanna\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1913,9 +2990,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Shepherd Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Shepherd Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1926,6 +3007,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:savanna\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1946,9 +3036,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Toolsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Toolsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1959,6 +3053,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:savanna\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -1979,9 +3082,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Weaponsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Weaponsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1992,6 +3099,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:savanna\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2012,9 +3128,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Armorer Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Armorer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2025,6 +3145,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:snow\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2045,9 +3174,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Butcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Butcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2058,6 +3191,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:snow\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2078,9 +3220,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Cartographer Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Cartographer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2091,6 +3237,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:snow\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2111,9 +3266,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Cleric Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Cleric Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2124,6 +3283,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:snow\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2144,9 +3312,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Farmer Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Farmer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2157,6 +3329,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:snow\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2177,9 +3358,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Fisherman Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Fisherman Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2190,6 +3375,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:snow\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2210,9 +3404,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Fletcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Fletcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2223,6 +3421,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:snow\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2243,9 +3450,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Leatherworker Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Leatherworker Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2256,6 +3467,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:snow\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2276,9 +3496,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Librarian Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Librarian Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2289,6 +3513,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:snow\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2309,9 +3542,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Mason Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Mason Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2322,6 +3559,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:snow\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2342,9 +3588,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Nitwit Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Nitwit Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2355,6 +3605,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:snow\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2375,9 +3634,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2388,6 +3651,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:snow\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2408,9 +3680,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Shepherd Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Shepherd Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2421,6 +3697,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:snow\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2441,9 +3726,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Toolsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Toolsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2454,6 +3743,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:snow\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2474,9 +3772,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Weaponsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Weaponsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2487,6 +3789,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:snow\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2507,9 +3818,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Armorer Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Armorer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2520,6 +3835,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:swamp\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2540,9 +3864,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Butcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Butcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2553,6 +3881,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:swamp\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2573,9 +3910,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Cartographer Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Cartographer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2586,6 +3927,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:swamp\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2606,9 +3956,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Cleric Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Cleric Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2619,6 +3973,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:swamp\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2639,9 +4002,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Farmer Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Farmer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2652,6 +4019,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:swamp\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2672,9 +4048,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Fisherman Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Fisherman Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2685,6 +4065,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:swamp\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2705,9 +4094,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Fletcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Fletcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2718,6 +4111,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:swamp\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2738,9 +4140,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Leatherworker Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Leatherworker Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2751,6 +4157,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:swamp\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2771,9 +4186,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Librarian Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Librarian Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2784,6 +4203,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:swamp\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2804,9 +4232,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Mason Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Mason Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2817,6 +4249,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:swamp\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2837,9 +4278,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Nitwit Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Nitwit Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2850,6 +4295,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:swamp\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2870,9 +4324,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2883,6 +4341,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:swamp\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2903,9 +4370,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Shepherd Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Shepherd Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2916,6 +4387,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:swamp\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2936,9 +4416,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Toolsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Toolsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2949,6 +4433,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:swamp\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -2969,9 +4462,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Weaponsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Weaponsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2982,6 +4479,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:swamp\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -3002,9 +4508,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Armorer Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Armorer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3015,6 +4525,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:taiga\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -3035,9 +4554,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Butcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Butcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3048,6 +4571,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:taiga\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -3068,9 +4600,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Cartographer Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Cartographer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3081,6 +4617,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:taiga\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -3101,9 +4646,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Cleric Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Cleric Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3114,6 +4663,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:taiga\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -3134,9 +4692,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Farmer Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Farmer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3147,6 +4709,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:taiga\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -3167,9 +4738,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Fisherman Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Fisherman Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3180,6 +4755,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:taiga\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -3200,9 +4784,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Fletcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Fletcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3213,6 +4801,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:taiga\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -3233,9 +4830,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Leatherworker Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Leatherworker Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3246,6 +4847,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:taiga\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -3266,9 +4876,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Librarian Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Librarian Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3279,6 +4893,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:taiga\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -3299,9 +4922,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Mason Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Mason Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3312,6 +4939,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:taiga\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -3332,9 +4968,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Nitwit Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Nitwit Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3345,6 +4985,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:taiga\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -3365,9 +5014,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3378,6 +5031,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:taiga\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -3398,9 +5060,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Shepherd Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Shepherd Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3411,6 +5077,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:taiga\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -3431,9 +5106,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Toolsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Toolsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3444,6 +5123,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:taiga\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]
@@ -3464,9 +5152,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Weaponsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Weaponsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3477,6 +5169,15 @@
                   "entity": "this",
                   "predicate": {
                     "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:taiga\"}}"
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
                   }
                 }
               ]

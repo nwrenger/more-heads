@@ -32,9 +32,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Armorer Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Armorer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -65,9 +69,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Butcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Butcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -98,9 +106,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Cartographer Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Cartographer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -131,9 +143,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Cleric Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Cleric Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -164,9 +180,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Farmer Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Farmer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -197,9 +217,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Fisherman Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Fisherman Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -230,9 +254,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Fletcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Fletcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -263,9 +291,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Leatherworker Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Leatherworker Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -296,9 +328,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Librarian Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Librarian Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -329,9 +365,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Mason Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Mason Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -362,9 +402,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Nitwit Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Nitwit Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -395,9 +439,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -428,9 +476,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Shepherd Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Shepherd Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -461,9 +513,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Toolsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Toolsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -494,9 +550,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Desert Weaponsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Desert Weaponsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -527,9 +587,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Armorer Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Armorer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -560,9 +624,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Butcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Butcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -593,9 +661,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Cartographer Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Cartographer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -626,9 +698,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Cleric Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Cleric Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -659,9 +735,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Farmer Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Farmer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -692,9 +772,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Fisherman Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Fisherman Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -725,9 +809,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Fletcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Fletcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -758,9 +846,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Leatherworker Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Leatherworker Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -791,9 +883,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Librarian Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Librarian Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -824,9 +920,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Mason Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Mason Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -857,9 +957,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Nitwit Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Nitwit Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -890,9 +994,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -923,9 +1031,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Shepherd Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Shepherd Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -956,9 +1068,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Toolsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Toolsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -989,9 +1105,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Jungle Weaponsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Jungle Weaponsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1022,9 +1142,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Armorer Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Armorer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1055,9 +1179,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Butcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Butcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1088,9 +1216,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Cartographer Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Cartographer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1121,9 +1253,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Cleric Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Cleric Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1154,9 +1290,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Farmer Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Farmer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1187,9 +1327,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Fisherman Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Fisherman Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1220,9 +1364,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Fletcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Fletcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1253,9 +1401,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Leatherworker Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Leatherworker Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1286,9 +1438,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Librarian Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Librarian Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1319,9 +1475,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Mason Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Mason Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1352,9 +1512,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Nitwit Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Nitwit Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1385,9 +1549,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1418,9 +1586,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Shepherd Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Shepherd Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1451,9 +1623,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Toolsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Toolsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1484,9 +1660,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Plains Weaponsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Plains Weaponsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1517,9 +1697,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Armorer Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Armorer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1550,9 +1734,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Butcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Butcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1583,9 +1771,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Cartographer Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Cartographer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1616,9 +1808,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Cleric Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Cleric Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1649,9 +1845,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Farmer Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Farmer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1682,9 +1882,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Fisherman Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Fisherman Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1715,9 +1919,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Fletcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Fletcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1748,9 +1956,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Leatherworker Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Leatherworker Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1781,9 +1993,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Librarian Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Librarian Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1814,9 +2030,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Mason Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Mason Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1847,9 +2067,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Nitwit Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Nitwit Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1880,9 +2104,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1913,9 +2141,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Shepherd Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Shepherd Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1946,9 +2178,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Toolsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Toolsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -1979,9 +2215,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Savanna Weaponsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Savanna Weaponsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2012,9 +2252,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Armorer Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Armorer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2045,9 +2289,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Butcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Butcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2078,9 +2326,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Cartographer Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Cartographer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2111,9 +2363,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Cleric Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Cleric Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2144,9 +2400,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Farmer Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Farmer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2177,9 +2437,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Fisherman Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Fisherman Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2210,9 +2474,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Fletcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Fletcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2243,9 +2511,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Leatherworker Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Leatherworker Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2276,9 +2548,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Librarian Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Librarian Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2309,9 +2585,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Mason Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Mason Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2342,9 +2622,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Nitwit Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Nitwit Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2375,9 +2659,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2408,9 +2696,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Shepherd Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Shepherd Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2441,9 +2733,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Toolsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Toolsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2474,9 +2770,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Snow Weaponsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Snow Weaponsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2507,9 +2807,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Armorer Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Armorer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2540,9 +2844,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Butcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Butcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2573,9 +2881,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Cartographer Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Cartographer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2606,9 +2918,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Cleric Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Cleric Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2639,9 +2955,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Farmer Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Farmer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2672,9 +2992,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Fisherman Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Fisherman Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2705,9 +3029,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Fletcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Fletcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2738,9 +3066,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Leatherworker Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Leatherworker Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2771,9 +3103,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Librarian Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Librarian Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2804,9 +3140,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Mason Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Mason Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2837,9 +3177,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Nitwit Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Nitwit Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2870,9 +3214,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2903,9 +3251,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Shepherd Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Shepherd Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2936,9 +3288,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Toolsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Toolsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -2969,9 +3325,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Swamp Weaponsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Swamp Weaponsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3002,9 +3362,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Armorer Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Armorer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3035,9 +3399,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Butcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Butcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3068,9 +3436,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Cartographer Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Cartographer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3101,9 +3473,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Cleric Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Cleric Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3134,9 +3510,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Farmer Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Farmer Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3167,9 +3547,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Fisherman Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Fisherman Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3200,9 +3584,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Fletcher Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Fletcher Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3233,9 +3621,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Leatherworker Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Leatherworker Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3266,9 +3658,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Librarian Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Librarian Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3299,9 +3695,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Mason Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Mason Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3332,9 +3732,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Nitwit Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Nitwit Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3365,9 +3769,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3398,9 +3806,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Shepherd Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Shepherd Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3431,9 +3843,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Toolsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Toolsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }
@@ -3464,9 +3880,13 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Taiga Weaponsmith Zombie Villager Head\"",
+                    "minecraft:item_name": "Taiga Weaponsmith Zombie Villager Head",
                     "minecraft:lore": [
-                      "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
                     ]
                   }
                 }

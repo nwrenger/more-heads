@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "bielefeld:entities/wandering_trader"
+          "value": "vanilla:entities/wandering_trader"
         }
       ]
     },

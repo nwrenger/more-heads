@@ -1,0 +1,168 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "conditions": [
+            {
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "minecraft:reference",
+              "name": "more_heads:beheading_tool"
+            }
+          ],
+          "children": [
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.cow.ambient",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQwNjg4ODVkMmRmYTNhMzA5MzYzYWYwYTg3ZGNhNmZiZjYyOWY3MTMwNzRmOTY4NjIxOWQ3YmE3YWY3MDA4ZCJ9fX0="
+                        }
+                      ]
+                    },
+                    "minecraft:item_name": "Cold Cow Head",
+                    "minecraft:lore": [
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "components": {
+                      "minecraft:cow/variant": "minecraft:cold"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.cow.ambient",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM0YjVmNmQ3NTEyNjM4MGY1MjBhNjdjYTU3YmM5YTU2YWExMWRiOGFmZTdlNWRjYjJhNTJkZmNmZWFlMDc4NSJ9fX0="
+                        }
+                      ]
+                    },
+                    "minecraft:item_name": "Temperate Cow Head",
+                    "minecraft:lore": [
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "components": {
+                      "minecraft:cow/variant": "minecraft:temperate"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.cow.ambient",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjNiMzM3NmZhZjI4MWMxNGJhNDcyZDJlN2Y2YjZkMDE2OWU0YmMyMzc0ODM1YTlmOGQwNzg4ZTA0ZDgxMzQzZCJ9fX0="
+                        }
+                      ]
+                    },
+                    "minecraft:item_name": "Warm Cow Head",
+                    "minecraft:lore": [
+                      {
+                        "italic": false,
+                        "color": "blue",
+                        "translate": "itemGroup.functional"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_baby": false
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "components": {
+                      "minecraft:cow/variant": "minecraft:warm"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

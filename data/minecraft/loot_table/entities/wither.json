@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "bielefeld:entities/wither"
+          "value": "vanilla:entities/wither"
         }
       ]
     },
