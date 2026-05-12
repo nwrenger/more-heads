@@ -6,7 +6,7 @@
 
 Adds **survival-friendly** access to **mob heads** and **player heads**, using **intentional hoe-based drops** to avoid farm pollution and preserve vanilla progression.
 
-> Expands head collecting by making mob heads a deliberate survival reward, not an automatic byproduct of farms or grinders.
+> Expands head collecting by making mob and player heads a deliberate survival reward, not an automatic byproduct.
 
 ## Installation
 
