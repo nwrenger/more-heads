@@ -1,7 +1,7 @@
-**Targets**: 1.21.5..
+**Targets**: [25w02a](https://minecraft.wiki/w/Java_Edition_25w02a)..latest
 
 **Changes**:
 
-- Inline text components formatting
-- Text component formatting in general
+- Text component formatting, for loot tables and tellraw
 - Advancement background prefixes and suffixes
+- New mob variants: Cold, Temperate, and Warm Pig
