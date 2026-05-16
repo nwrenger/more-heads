@@ -10,13 +10,15 @@ Adds **survival-friendly** access to **mob heads** and **player heads**, using *
 
 ## Why use this data pack/mod?
 
-1. **Preserves farms and grinders**:
+1. **All-in-one solution**:
+   Combines mob heads and player heads in one data pack/mod, keeping head collecting consistent.
+2. **Preserves farms and grinders**:
    Hoe-based drops keep farms and grinders from filling up with unwanted head drops.
-2. **Vanilla-style items**:
+3. **Vanilla-style items**:
    Heads use fitting note block sounds, clean names, and subtle tooltip styling so they feel like part of the game.
-3. **Lightweight and passive**:
+4. **Lightweight and passive**:
    Built around loot tables and pack overlays, without ticking functions, command-heavy systems, or extra runtime overhead.
-4. **Flexible installation**:
+5. **Flexible installation**:
    Works as either a world-specific data pack or packaged mod, making it easy to use in singleplayer, servers, vanilla, and modded setups.
 
 ## Installation
