@@ -31,7 +31,7 @@ After adding the data pack/mod to your world or server, you can open the about p
 
 ## Mob Heads
 
-Mobs drop their heads when killed with a **hoe**. This keeps head collecting **intentional** and prevents passive farms or grinders from producing extra heads. The **Wither Skeleton** and **Ender Dragon** are excluded, keeping their **vanilla progression intact**.
+Mobs drop their heads when killed with a **hoe**. The **Wither Skeleton** and **Ender Dragon** are excluded, keeping their **vanilla progression intact**.
 
 > **Enderman Head Drop**
 >
