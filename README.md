@@ -10,8 +10,8 @@ Adds **survival-friendly** access to **mob heads** and **player heads**, using *
 
 ## Why use this data pack/mod?
 
-1. **Designed around intentional collecting**:
-   Heads are something players actively go for, not random clutter from farms or grinders.
+1. **Preserves farms and grinders**:
+   Hoe-based drops keep farms and grinders from filling up with unwanted head drops.
 2. **Vanilla-style items**:
    Heads use fitting note block sounds, clean names, and subtle tooltip styling so they feel like part of the game.
 3. **Lightweight and passive**:
