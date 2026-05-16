@@ -8,6 +8,17 @@ Adds **survival-friendly** access to **mob heads** and **player heads**, using *
 
 > Expands head collecting by making mob and player heads a deliberate survival reward, not an automatic byproduct.
 
+## Why use this data pack/mod?
+
+1. **Designed around intentional collecting**:
+   Heads are something players actively go for, not random clutter from farms or grinders.
+2. **Vanilla-style items**:
+   Heads use fitting note block sounds, clean names, and subtle tooltip styling so they feel like part of the game.
+3. **Lightweight and passive**:
+   Built around loot tables and pack overlays, without ticking functions, command-heavy systems, or extra runtime overhead.
+4. **Flexible installation**:
+   Works as either a world-specific data pack or packaged mod, making it easy to use in singleplayer, servers, vanilla, and modded setups.
+
 ## Installation
 
 After adding the data pack/mod to your world or server, you can open the about panel with:
