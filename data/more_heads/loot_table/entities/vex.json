@@ -46,7 +46,7 @@
                     }
                   ]
                 },
-                "minecraft:item_name": "\"Vex Head\"",
+                "minecraft:item_name": "\"Charging Vex Head\"",
                 "minecraft:lore": [
                   "{\"italic\":false,\"color\":\"blue\",\"translate\":\"itemGroup.functional\"}"
                 ]
