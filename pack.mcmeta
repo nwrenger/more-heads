@@ -2,8 +2,8 @@
     "pack": {
         "pack_format": 48,
         "min_format": 48,
-        "max_format": [101, 1],
-        "supported_formats": { "min_inclusive": 48, "max_inclusive": 101 },
+        "max_format": [107, 1],
+        "supported_formats": { "min_inclusive": 48, "max_inclusive": 107 },
         "description": "Adds survival-friendly access to mob and player heads with intentional hoe-based drops, avoiding farm pollution and preserving vanilla progression"
     },
     "overlays": {
@@ -11,62 +11,80 @@
             {
                 "directory": "overlay_56",
                 "min_format": 56,
-                "max_format": [101, 1],
-                "formats": { "min_inclusive": 56, "max_inclusive": 101 }
+                "max_format": [107, 1],
+                "formats": { "min_inclusive": 56, "max_inclusive": 107 }
             },
             {
                 "directory": "overlay_62",
                 "min_format": 62,
-                "max_format": [101, 1],
-                "formats": { "min_inclusive": 62, "max_inclusive": 101 }
+                "max_format": [107, 1],
+                "formats": { "min_inclusive": 62, "max_inclusive": 107 }
             },
             {
                 "directory": "overlay_65",
                 "min_format": 65,
-                "max_format": [101, 1],
-                "formats": { "min_inclusive": 65, "max_inclusive": 101 }
+                "max_format": [107, 1],
+                "formats": { "min_inclusive": 65, "max_inclusive": 107 }
             },
             {
                 "directory": "overlay_66",
                 "min_format": 66,
-                "max_format": [101, 1],
-                "formats": { "min_inclusive": 66, "max_inclusive": 101 }
+                "max_format": [107, 1],
+                "formats": { "min_inclusive": 66, "max_inclusive": 107 }
             },
             {
                 "directory": "overlay_72",
                 "min_format": 72,
-                "max_format": [101, 1],
-                "formats": { "min_inclusive": 72, "max_inclusive": 101 }
+                "max_format": [107, 1],
+                "formats": { "min_inclusive": 72, "max_inclusive": 107 }
             },
             {
                 "directory": "overlay_82",
                 "min_format": 82,
-                "max_format": [101, 1],
-                "formats": { "min_inclusive": 82, "max_inclusive": 101 }
+                "max_format": [107, 1],
+                "formats": { "min_inclusive": 82, "max_inclusive": 107 }
             },
             {
                 "directory": "overlay_89",
                 "min_format": 89,
-                "max_format": [101, 1],
-                "formats": { "min_inclusive": 89, "max_inclusive": 101 }
+                "max_format": [107, 1],
+                "formats": { "min_inclusive": 89, "max_inclusive": 107 }
             },
             {
                 "directory": "overlay_92",
                 "min_format": [92, 0],
-                "max_format": [101, 1],
-                "formats": { "min_inclusive": 92, "max_inclusive": 101 }
+                "max_format": [107, 1],
+                "formats": { "min_inclusive": 92, "max_inclusive": 107 }
             },
             {
                 "directory": "overlay_99_1",
                 "min_format": [99, 1],
-                "max_format": [101, 1],
-                "formats": { "min_inclusive": 99, "max_inclusive": 101 }
+                "max_format": [107, 1],
+                "formats": { "min_inclusive": 99, "max_inclusive": 107 }
             },
             {
                 "directory": "overlay_99_2",
                 "min_format": [99, 2],
-                "max_format": [101, 1],
-                "formats": { "min_inclusive": 99, "max_inclusive": 101 }
+                "max_format": [107, 1],
+                "formats": { "min_inclusive": 99, "max_inclusive": 107 }
+            },
+            {
+                "directory": "overlay_101_2",
+                "min_format": [101, 2],
+                "max_format": [107, 1],
+                "formats": { "min_inclusive": 101, "max_inclusive": 107 }
+            },
+            {
+                "directory": "overlay_102",
+                "min_format": [102, 0],
+                "max_format": [107, 1],
+                "formats": { "min_inclusive": 102, "max_inclusive": 107 }
+            },
+            {
+                "directory": "overlay_103",
+                "min_format": [103, 0],
+                "max_format": [107, 1],
+                "formats": { "min_inclusive": 103, "max_inclusive": 107 }
             }
         ]
     }
