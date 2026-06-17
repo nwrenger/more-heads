@@ -38,46 +38,29 @@
           ],
           "conditions": [
             {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{CustomName:\"{\\\"text\\\":\\\"Toast\\\"}\"}"
+                  },
+                  "entity": "this"
+                },
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{CustomName:\"\\\"Toast\\\"\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
               "condition": "minecraft:reference",
               "name": "more_heads:beheading_tool"
             }
           ]
-        }
-      ],
-      "functions": [
-        {
-          "function": "minecraft:set_count",
-          "count": 2
-        },
-        {
-          "function": "minecraft:set_name",
-          "entity": "this",
-          "name": {
-            "selector": "@s[name=Toast]"
-          }
-        },
-        {
-          "function": "minecraft:filtered",
-          "item_filter": {
-            "components": {
-              "minecraft:custom_name": "\"\""
-            }
-          },
-          "modifier": {
-            "function": "minecraft:set_count",
-            "count": 1
-          }
-        },
-        {
-          "function": "minecraft:set_count",
-          "count": -1,
-          "add": true
-        },
-        {
-          "function": "minecraft:set_components",
-          "components": {
-            "!minecraft:custom_name": {}
-          }
         }
       ]
     },
@@ -85,6 +68,28 @@
       "conditions": [
         {
           "condition": "killed_by_player"
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "predicate": {
+                  "nbt": "{CustomName:\"{\\\"text\\\":\\\"Toast\\\"}\"}"
+                },
+                "entity": "this"
+              },
+              {
+                "condition": "entity_properties",
+                "predicate": {
+                  "nbt": "{CustomName:\"\\\"Toast\\\"\"}"
+                },
+                "entity": "this"
+              }
+            ]
+          }
         }
       ],
       "rolls": 1,
@@ -380,38 +385,6 @@
               ]
             }
           ]
-        }
-      ],
-      "functions": [
-        {
-          "function": "minecraft:set_name",
-          "entity": "this",
-          "name": {
-            "selector": "@s[name=Toast]"
-          }
-        },
-        {
-          "function": "minecraft:filtered",
-          "item_filter": {
-            "components": {
-              "minecraft:custom_name": "\"\""
-            }
-          },
-          "modifier": {
-            "function": "minecraft:set_count",
-            "count": 2
-          }
-        },
-        {
-          "function": "minecraft:set_count",
-          "count": -1,
-          "add": true
-        },
-        {
-          "function": "minecraft:set_components",
-          "components": {
-            "!minecraft:custom_name": {}
-          }
         }
       ]
     }

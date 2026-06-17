@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "vanilla:entities/sheep/cyan"
+          "value": "vanilla:entities/sheep"
         }
       ]
     },
@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "more_heads:entities/sheep/cyan"
+          "value": "more_heads:entities/sheep"
         }
       ]
     }
