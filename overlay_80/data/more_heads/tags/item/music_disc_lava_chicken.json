@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:music_disc_lava_chicken",
+      "required": false
+    }
+  ]
+}

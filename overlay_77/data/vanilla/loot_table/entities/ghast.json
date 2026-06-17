@@ -68,7 +68,7 @@
           "condition": "minecraft:damage_source_properties",
           "predicate": {
             "direct_entity": {
-              "minecraft:entity_type": "minecraft:fireball"
+              "nbt": "{id:\"minecraft:fireball\"}"
             },
             "tags": [
               {

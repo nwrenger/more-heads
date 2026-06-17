@@ -3,7 +3,5 @@
 **Changes**:
 
 - Updated entity predicates from old format (with `type_specific` sub-object) to new top-level namespaced keys:
-  - `type_specific.type` → `minecraft:type_specific/slime` (slime/magma_cube/sulfur_cube)
   - `type_specific.type` → `minecraft:type_specific/raider`
-  - `type_specific.type` → `minecraft:type_specific/sheep`
   - `type` → `minecraft:entity_type`

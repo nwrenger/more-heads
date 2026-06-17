@@ -105,9 +105,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "components": {
-                      "minecraft:sheep/color": "white"
-                    }
+                    "nbt": "{Color:0b}"
                   },
                   "entity": "this"
                 }
@@ -145,9 +143,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "components": {
-                      "minecraft:sheep/color": "orange"
-                    }
+                    "nbt": "{Color:1b}"
                   },
                   "entity": "this"
                 }
@@ -185,9 +181,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "components": {
-                      "minecraft:sheep/color": "magenta"
-                    }
+                    "nbt": "{Color:2b}"
                   },
                   "entity": "this"
                 }
@@ -225,9 +219,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "components": {
-                      "minecraft:sheep/color": "light_blue"
-                    }
+                    "nbt": "{Color:3b}"
                   },
                   "entity": "this"
                 }
@@ -265,9 +257,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "components": {
-                      "minecraft:sheep/color": "yellow"
-                    }
+                    "nbt": "{Color:4b}"
                   },
                   "entity": "this"
                 }
@@ -305,9 +295,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "components": {
-                      "minecraft:sheep/color": "lime"
-                    }
+                    "nbt": "{Color:5b}"
                   },
                   "entity": "this"
                 }
@@ -345,9 +333,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "components": {
-                      "minecraft:sheep/color": "pink"
-                    }
+                    "nbt": "{Color:6b}"
                   },
                   "entity": "this"
                 }
@@ -385,9 +371,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "components": {
-                      "minecraft:sheep/color": "gray"
-                    }
+                    "nbt": "{Color:7b}"
                   },
                   "entity": "this"
                 }
@@ -425,9 +409,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "components": {
-                      "minecraft:sheep/color": "light_gray"
-                    }
+                    "nbt": "{Color:8b}"
                   },
                   "entity": "this"
                 }
@@ -465,9 +447,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "components": {
-                      "minecraft:sheep/color": "cyan"
-                    }
+                    "nbt": "{Color:9b}"
                   },
                   "entity": "this"
                 }
@@ -505,9 +485,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "components": {
-                      "minecraft:sheep/color": "purple"
-                    }
+                    "nbt": "{Color:10b}"
                   },
                   "entity": "this"
                 }
@@ -545,9 +523,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "components": {
-                      "minecraft:sheep/color": "blue"
-                    }
+                    "nbt": "{Color:11b}"
                   },
                   "entity": "this"
                 }
@@ -585,9 +561,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "components": {
-                      "minecraft:sheep/color": "brown"
-                    }
+                    "nbt": "{Color:12b}"
                   },
                   "entity": "this"
                 }
@@ -625,9 +599,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "components": {
-                      "minecraft:sheep/color": "green"
-                    }
+                    "nbt": "{Color:13b}"
                   },
                   "entity": "this"
                 }
@@ -665,9 +637,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "components": {
-                      "minecraft:sheep/color": "red"
-                    }
+                    "nbt": "{Color:14b}"
                   },
                   "entity": "this"
                 }
@@ -705,9 +675,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "components": {
-                      "minecraft:sheep/color": "black"
-                    }
+                    "nbt": "{Color:15b}"
                   },
                   "entity": "this"
                 }
